@@ -64,13 +64,13 @@ const NavWrapper = styled("div", {
   justifyContent: "space-around",
   minWidth: "$maxBound",
   height: "$x16",
-  padding: "$x5 $x12",
   position: "fixed",
   top: "0",
   borderBottom: "1px solid $UIElementBorderAndFocusRings",
   zIndex: "1",
+  margin: "auto",
   "@tablet": {
-    padding: "$x5 $x20",
+    padding: "$x5 0",
     height: "$x14",
   },
   "@mobile": {
@@ -82,34 +82,29 @@ const NavWrapper = styled("div", {
 const LeftNavWrapper = styled("div", {
   display: "flex",
   flexFlow: "row nowrap",
-  flexBasis: "50%",
-  width: "100%",
   height: "100%",
   alignItems: "center",
-  justifyContent: "flex-start",
+  justifyContent: "space-around",
   gap: "$x4",
   "@tablet": {
-    gap: "0",
+    gap: "$x2",
   },
   "@mobile": {
-    gap: "0",
+    gap: "$x1",
   },
 });
 
 const RightNavWrapper = styled("div", {
   display: "flex",
   flexFlow: "row nowrap",
-  flexBasis: "50%",
   gap: "$x4",
   alignItems: "center",
   justifyContent: "space-evenly",
   "@tablet": {
     gap: "$x2",
-    paddingRight: "$x2",
   },
   "@mobile": {
     gap: "$x1",
-    paddingRight: "$x2",
   },
 });
 

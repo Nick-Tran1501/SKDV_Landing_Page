@@ -27,21 +27,22 @@ const Introduction = (props: Props) => {
 };
 
 const IntroductionWrapper = styled("div", {
-  height: "$x128",
+  height: "50vh",
   maxWidth: "$maxBound",
   display: "flex",
   flexFlow: "column nowrap",
   gap: "$x4",
   justifyContent: "center",
-  alignItems: "flex-start",
-  padding: "$x32",
+  alignItems: "center",
+  margin: " $x30 auto",
   "@tablet": {
-    padding: "$x40 $x25",
+    maxWidth: "90%",
+    margin: " $x10 auto",
     gap: "$x2",
   },
   "@mobile": {
     position: "relative",
-    padding: "$x50 $x10",
+    margin: " $x5 auto",
     gap: "$x1",
   },
 });
