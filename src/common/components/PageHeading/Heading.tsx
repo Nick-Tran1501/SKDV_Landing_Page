@@ -15,6 +15,8 @@ const Heading: React.FC<Props> = ({ title, keywords, description }: Props) => {
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
 
+      <link rel="shortcut icon" href="/logo.png" />
+
       <title>{title}</title>
     </Head>
   );

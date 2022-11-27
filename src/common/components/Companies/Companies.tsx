@@ -13,7 +13,7 @@ type Props = {};
 const Companies = (props: Props) => {
   return (
     <CompaniesWrapper>
-      <CompaniesHonour>
+      {/* <CompaniesHonour>
         I had the pleasure of working with these awesome companies
       </CompaniesHonour>
 
@@ -23,7 +23,7 @@ const Companies = (props: Props) => {
         <StyledStitchesLogo />
         <StyledGitHubLogo />
         <StyledLinkedInLogo />
-      </IconWrapper>
+      </IconWrapper> */}
     </CompaniesWrapper>
   );
 };

@@ -19,34 +19,34 @@ const Nav = (props: Props) => {
         </Link>
 
         <Link href={"/about-us"}>
-          <AboutLink href={"/about-us"}>About Us</AboutLink>
+          <AboutLink href={"/about-us"}>Về chúng tôi</AboutLink>
         </Link>
 
         <Link href={"/contact"}>
-          <ContactLink href={"/contact"}>Contact</ContactLink>
+          <ContactLink href={"/contact"}>Liên hệ</ContactLink>
         </Link>
       </LeftNavWrapper>
 
       <RightNavWrapper>
         <ContactInformationWrapper>
-          <Email email={"SkyDev.SKDV@gmail.com"}></Email>
-          <Hotline contract={"012-3456-789"}></Hotline>
+          <Email email={"sky.inventory.root@gmail.com"}></Email>
+          {/* <Hotline contract={"012-3456-789"}></Hotline> */}
         </ContactInformationWrapper>
 
         <VerticalLineBreak></VerticalLineBreak>
 
         <ConnectionWrapper>
           {/* Github Icon */}
-          <Link href="https://github.com/">
-            <LogoLink href="https://github.com/" target="_blank">
+          <Link href="https://github.com/skdv68">
+            <LogoLink href="https://github.com/skdv68" target="_blank">
               <StyledGitHubLogoIcon></StyledGitHubLogoIcon>
             </LogoLink>
           </Link>
 
           {/* LinkedIn Logo */}
-          <LogoLink href="https://www.linkedin.com" target="_blank">
+          {/* <LogoLink href="https://www.linkedin.com" target="_blank">
             <StyledLinkedInLogoIcon></StyledLinkedInLogoIcon>
-          </LogoLink>
+          </LogoLink> */}
         </ConnectionWrapper>
       </RightNavWrapper>
     </NavWrapper>

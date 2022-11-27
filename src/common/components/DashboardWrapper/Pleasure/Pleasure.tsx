@@ -8,12 +8,12 @@ type Props = {};
 const Pleasure = (props: Props) => {
   return (
     <PleasureWrapper>
-      <PleasureText>
+      {/* <PleasureText>
         “Working with Robert has been an absolute pleasure and we’ll definitely
         turn to his expertise for new projects.”
       </PleasureText>
       <Avatar />
-      <Name />
+      <Name /> */}
     </PleasureWrapper>
   );
 };

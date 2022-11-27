@@ -9,18 +9,17 @@ const Introduction = (props: Props) => {
   return (
     <IntroductionWrapper>
       <IntroductionTextWrapper>
-        <HelloText>We are Sky Developer(SKDV)</HelloText>
+        <HelloText>Chúng tôi là SKDV</HelloText>
         <IntroductionText>
-          Freelance UI Designer & Web Developer
+          Giải pháp công nghệ và chuyển đổi số
         </IntroductionText>
         <DescriptionText>
-          I help business grow by crafting amazing web experiences. If you’re
-          looking for a designer and developer that likes to get stuff done,
-          let’s talk.
+        Sứ mênh của chúng tôi là đem đên giải pháp công nghệ và chuyển đổi số cho doanh nghiệp đang phát triển.
         </DescriptionText>
       </IntroductionTextWrapper>
       <StyledButton bc={"linear"}>
-        See our work <StyledButtonIcon />
+        Xem thêm về sản phẩm 
+        {/* <StyledButtonIcon /> */}
       </StyledButton>
     </IntroductionWrapper>
   );
@@ -104,11 +103,11 @@ const DescriptionText = styled("h3", {
 });
 
 const StyledButton = styled(Button, {
-  width: "$x50",
+  width: "$x60",
   height: "$x15",
   fontFamily: "$bodyFont",
   fontWeight: "$bold",
-  fontSize: "$16px",
+  fontSize: "$14px",
 });
 
 const StyledButtonIcon = styled(ArrowDownIcon, {

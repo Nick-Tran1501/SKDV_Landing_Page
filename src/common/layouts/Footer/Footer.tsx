@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
     <FooterWrapper>
       <LeftNavWrapper>
         <CopyRight>
-          (c) Copyright Robert Fox 2022. All rights reserved.
+          (c) Copyright SKYDEV Software 2022. All rights reserved.
         </CopyRight>
 
         <Privacy>Privacy</Privacy>
@@ -20,8 +20,8 @@ const Footer = (props: Props) => {
 
       <RightNavWrapper>
         <ContactInformationWrapper>
-          <Email>SkyDev.SKDV@gmail.com</Email>
-          <HotLine>012-3456-789</HotLine>
+          <Email>sky.inventory.root@gmail.com</Email>
+          {/* <HotLine>012-3456-789</HotLine> */}
         </ContactInformationWrapper>
 
         <VerticalLineBreak></VerticalLineBreak>
@@ -35,9 +35,9 @@ const Footer = (props: Props) => {
           </Link>
 
           {/* LinkedIn Logo */}
-          <LogoLink href="https://www.linkedin.com" target="_blank">
+          {/* <LogoLink href="https://www.linkedin.com" target="_blank">
             <StyledLinkedInLogoIcon></StyledLinkedInLogoIcon>
-          </LogoLink>
+          </LogoLink> */}
         </ConnectionWrapper>
       </RightNavWrapper>
     </FooterWrapper>

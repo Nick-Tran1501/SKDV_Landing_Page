@@ -17,8 +17,8 @@ const Description = (props: Props) => {
       </SubDescription>
 
       <ContractWrapper>
-        <Email email={"SkyDev.SKDV@gmail.com"}></Email>
-        <Hotline contract={"012-3456-789"}></Hotline>
+        <Email email={"sky.inventory.root@gmail.com"}></Email>
+        {/* <Hotline contract={"012-3456-789"}></Hotline> */}
       </ContractWrapper>
       <StyledButton bc={"linear"}>
         Got a Project in Mind? Let’s talk!

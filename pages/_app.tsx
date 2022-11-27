@@ -8,9 +8,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Heading
-        title={"SKDV"}
-        keywords={"Web Developer "}
-        description={"Fullstack startup"}
+        title={"SKDV Software"}
+        keywords={"Web Developer"}
+        description={"Software solution for rising businesses"}
       />
       <Nav />
 
